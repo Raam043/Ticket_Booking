@@ -19,3 +19,8 @@ systemctl enable jenkins
 systemctl start jenkins
 yum install git -y
 ```
+Make app directory and add Application files using git clone
+```sh
+mkdir /opt/ticketbooking
+cd /opt/ticketbooking
+git clone
