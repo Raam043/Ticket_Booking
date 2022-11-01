@@ -21,6 +21,7 @@ yum install git -y
 ```
 Make app directory and add Application files using git clone
 ```sh
+rm -rf /opt/ticketbooking/*
 mkdir /opt/ticketbooking
 cd /opt/ticketbooking
 git clone https://github.com/Raam043/Ticket_Booking.git
