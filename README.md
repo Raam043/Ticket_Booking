@@ -27,12 +27,8 @@ cd /opt/ticketbooking
 git clone https://github.com/Raam043/Ticket_Booking.git
 cp /opt/ticketbooking/Ticket_Booking/* /opt/ticketbooking
 ```
-Build Docker images and Run container (1st run )
-```sh
-docker build -t ticketbooking .
-docker run --name ticketbooking -d -p 443:80 ticketbooking
-```
-Build Docker images and Run container (2nd run )
+
+Build Docker images and Run container 
 ```sh
 docker stop ticketbooking
 docker rm -f ticketbooking
@@ -40,4 +36,15 @@ docker image rm -f ticketbooking
 docker build -t ticketbooking .
 docker run --name ticketbooking -d -p 443:80 ticketbooking
 ```
+Open New tab with `Server_Public_IP:443`
+
+Output
+
+![image](https://user-images.githubusercontent.com/111989928/199218362-0410e819-7172-4dc7-8b37-355eb89e22eb.png)
+
+
+Output after given input
+![image](https://user-images.githubusercontent.com/111989928/199218629-b2c6a949-3449-4731-bd34-2f5afdc1381c.png)
+
+
 
