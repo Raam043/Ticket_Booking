@@ -1,5 +1,10 @@
 # `Ticket_Booking Web Application` Installation with docker and Jenkins.
 
+Directly you can run this app by using docker images pls visit my DcokerHub account => **[raam043](https://hub.docker.com/u/raam043)**
+```sh
+docker run --name ticketbk -d -p 80:80 raam043/
+```
+
 Release linux server and install Jenkins and Docker
 
 ```sh
