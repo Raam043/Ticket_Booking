@@ -1,4 +1,4 @@
-# Ticket_Booking Installation with docker by Jenkins
+# `Ticket_Booking Web Application` Installation with docker and Jenkins.
 
 Release linux server and install Jenkins and Docker
 
