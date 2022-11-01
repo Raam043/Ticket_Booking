@@ -27,3 +27,17 @@ cd /opt/ticketbooking
 git clone https://github.com/Raam043/Ticket_Booking.git
 cp /opt/ticketbooking/Ticket_Booking/* /opt/ticketbooking
 ```
+Build Docker images and Run container (1st run )
+```sh
+dokcer build -t ticketbooking .
+docker run --name ticketbooking -d -p 443:80 ticketbooking
+```
+Build Docker images and Run container (2nd run )
+```sh
+docker stop ticketbooking
+docker rm -f ticketbooking
+dokcer image rm -f ticketbooking
+dokcer build -t ticketbooking .
+docker run --name ticketbooking -d -p 443:80 ticketbooking
+```
+
