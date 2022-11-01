@@ -23,4 +23,6 @@ Make app directory and add Application files using git clone
 ```sh
 mkdir /opt/ticketbooking
 cd /opt/ticketbooking
-git clone
+git clone https://github.com/Raam043/Ticket_Booking.git
+cp /opt/ticketbooking/Ticket_Booking/* /opt/ticketbooking
+```
