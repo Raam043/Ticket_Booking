@@ -2,7 +2,7 @@
 
 Directly you can run this app by using docker images pls visit my DcokerHub account => **[raam043](https://hub.docker.com/u/raam043)**
 ```sh
-docker run --name ticketbk -d -p 80:80 raam043/
+docker run --name ticketbk -d -p 80:80 raam043/ticket-booking
 ```
 
 Release linux server and install Jenkins and Docker
